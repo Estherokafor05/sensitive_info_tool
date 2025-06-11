@@ -1,21 +1,22 @@
-# Privacy Policy
+# Privacy Policy – Sensitive Info Detector
 
-**Sensitive Info Detector** does **not** collect, store, or share any personal or sensitive user data.
+The **Sensitive Info Detector** Chrome extension does not collect, store, or transmit any personal or sensitive user data.
 
-## What the Extension Does
+## What the extension does:
 
-This extension scans the text you type into AI tools like ChatGPT for common patterns of sensitive data (e.g. API keys, passwords, credit card numbers) and shows a **local warning**. No data is sent to any server.
+- The extension analyzes the text you type into certain AI platforms (like ChatGPT, Claude, Bard, etc.).
+- It checks locally (on your device) for patterns that match sensitive data such as API keys, access tokens, or passwords.
+- If any sensitive data is detected, a **local warning** is shown.
 
-## Permissions Explanation
+## What the extension does NOT do:
 
-We request access to specific AI websites (e.g. `chat.openai.com`) to detect inputs locally in your browser.
+- ❌ It does not collect or send your input anywhere.
+- ❌ It does not store any user information.
+- ❌ It does not log or track your activity.
+- ❌ It does not communicate with any external server.
 
-## Data Collection
+All processing happens locally in your browser. We respect your privacy.
 
-- ❌ No tracking
-- ❌ No user data is stored or transmitted
-- ✅ All detection happens **locally** in your browser
+---
 
-## Contact
-
-If you have questions about this policy, please open an issue at [GitHub Issues](https://github.com/Estherokafor05/sensitive_info_tool/issues).
+For questions or concerns, please contact: [estherokafor05@gmail.com]
