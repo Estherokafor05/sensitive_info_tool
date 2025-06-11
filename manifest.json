@@ -1,0 +1,71 @@
+{
+  "manifest_version": 3,
+  "name": "Sensitive Info Detector",
+  "version": "1.1",
+  "description": "Warns users before submitting sensitive info to AI tools.",
+  "host_permissions": [
+    "*://*.openai.com/*",
+    "*://*.anthropic.com/*",
+    "*://*.claude.ai/*",
+    "*://*.chatgpt.com/*",
+    "*://*.bard.google.com/*",
+    "*://*.gemini.google.com/*",
+    "*://*.perplexity.ai/*",
+    "*://*.poe.com/*",
+    "*://*.character.ai/*",
+    "*://*.huggingface.co/*",
+    "*://*.stability.ai/*",
+    "*://*.midjourney.com/*",
+    "*://*.replicate.com/*",
+    "*://*.runwayml.com/*",
+    "*://*.elevenlabs.io/*",
+    "*://*.cohere.ai/*",
+    "*://*.deepai.org/*",
+    "*://*.deepmind.com/*",
+    "*://*.azure.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.openai.com/*",
+        "*://*.anthropic.com/*",
+        "*://*.claude.ai/*",
+        "*://*.chatgpt.com/*",
+        "*://*.bard.google.com/*",
+        "*://*.gemini.google.com/*",
+        "*://*.perplexity.ai/*",
+        "*://*.poe.com/*",
+        "*://*.character.ai/*",
+        "*://*.huggingface.co/*",
+        "*://*.stability.ai/*",
+        "*://*.midjourney.com/*",
+        "*://*.replicate.com/*",
+        "*://*.runwayml.com/*",
+        "*://*.elevenlabs.io/*",
+        "*://*.cohere.ai/*",
+        "*://*.deepai.org/*",
+        "*://*.deepmind.com/*",
+        "*://*.azure.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
