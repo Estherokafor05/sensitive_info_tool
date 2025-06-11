@@ -19,4 +19,8 @@ All processing happens locally in your browser. We respect your privacy.
 
 ---
 
+## Contact
+
+If you have questions about this policy, please open an issue at [GitHub Issues](https://github.com/Estherokafor05/sensitive_info_tool/issues).
+
 For questions or concerns, please contact: [estherokafor05@gmail.com]
