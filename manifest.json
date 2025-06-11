@@ -24,6 +24,7 @@
     "*://*.deepmind.com/*",
     "*://*.azure.com/*"
   ],
+  "optional_permissions": [],
   "content_scripts": [
     {
       "matches": [
